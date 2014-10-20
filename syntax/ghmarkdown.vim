@@ -9,6 +9,10 @@
 
 " preferred shiftwidth for ghmarkdown files
 setlocal shiftwidth=4
+" furthermore set tabstop similarly
+setlocal tabstop=4
+" also, add "." to keywords, quick and dirty for this filetype
+se iskeyword+=46
 
 if exists("b:current_syntax")
   finish
