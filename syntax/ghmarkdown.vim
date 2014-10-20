@@ -7,6 +7,9 @@
 " (nearly the same as tpope's markdown.vim, with a few 
 " add-ons for Github Flavored Markdown)
 
+" preferred shiftwidth for ghmarkdown files
+setlocal shiftwidth=4
+
 if exists("b:current_syntax")
   finish
 endif
