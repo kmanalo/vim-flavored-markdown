@@ -12,13 +12,14 @@ setlocal shiftwidth=4
 " furthermore set tabstop similarly
 setlocal tabstop=4
 
-" also, add ".", "/", ":", "-", "#", "?" to keywords, quick and dirty for this filetype
+" also, add the following symbols to keywords, quick and dirty for this filetype
 se iskeyword+=46
 se iskeyword+=/
 se iskeyword+=:
 se iskeyword+=-
 se iskeyword+=#
 se iskeyword+=?
+se iskeyword+=~
 
 if exists("b:current_syntax")
   finish
