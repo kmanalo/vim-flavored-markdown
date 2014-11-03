@@ -21,6 +21,7 @@ se iskeyword+=#
 se iskeyword+=?
 se iskeyword+=~
 se iskeyword+==
+se iskeyword+=&
 
 if exists("b:current_syntax")
   finish
