@@ -12,6 +12,10 @@ setlocal shiftwidth=4
 " furthermore set tabstop similarly
 setlocal tabstop=4
 
+" for ascdocs reader
+set wrap
+set textwidth=80
+
 " also, add the following symbols to keywords, quick and dirty for this filetype
 se iskeyword+=46
 se iskeyword+=/
